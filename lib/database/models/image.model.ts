@@ -56,6 +56,9 @@ const ImageSchema = new Schema({
   color: {
     type: String,
   },
+  prompt: {
+    type: String,
+  },
   author: {
     type: Schema.Types.ObjectId,
     ref: 'User',
