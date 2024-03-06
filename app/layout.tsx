@@ -1,10 +1,10 @@
 import { ClerkProvider } from '@clerk/nextjs'
 import type { Metadata } from 'next'
-import { Poppins as FontSans } from 'next/font/google'
 import './globals.css'
+import { Poppins as FontSans } from 'next/font/google'
 import { cn } from '@/lib/utils'
 
-export const fontSans = FontSans({
+const fontSans = FontSans({
   subsets: ['latin'],
   weight: ['400', '500', '700'],
   variable: '--font-sans',
